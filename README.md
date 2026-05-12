@@ -20,15 +20,23 @@ LEARNPLAYWRITE2X/
 │   ├── 03_Verify_setup.js        # Environment verification
 │   └── 04_Hotcode.js             # Quick code snippets
 ├── chapter_02_Javascript_Concept/
-│   ├── 05_JS_Basics.js           # JavaScript basics (placeholder)
-│   ├── 06_Identifier_Rules.js    # Identifier naming rules & conventions
-│   └── 07_Identifier_Rules_Part2.js # Case styles: camelCase, snake_case, PascalCase, etc.
+│   └── 05_JS_Basics.js           # JavaScript basics
 ├── chapter_03_Identifier_Literals/
 │   ├── 06_Identifier_Rules.js    # Identifier rules reference
 │   ├── 07_Identifier_Rules_Part2.js # Extended identifier examples
 │   ├── 08_Comments.js            # Comments in JavaScript
 │   ├── js_identifier_rule.js     # Identifier rule utilities
 │   └── VS_keyboarrd_Short_window.md # Visual Studio Code Windows shortcuts reference
+├── Chapter_04_Javascript_Concept/
+│   ├── 09_var_let_const.js       # var vs let vs const comparison
+│   ├── 10_functions.js           # Function declarations and usage
+│   ├── 11_var_explained.js       # var keyword deep dive
+│   ├── 12_let_explained.js       # let keyword deep dive
+│   ├── 13_const_explained.js     # const keyword deep dive
+│   ├── 14_var_functionscope.js   # var function scope behavior
+│   ├── 15_let_functionscope.js   # let function scope behavior
+│   ├── 16_Hoisting.js            # Variable hoisting with var
+│   └── 17_hoisting_fn.js         # Function-scoped hoisting example
 ```
 
 ---
@@ -54,6 +62,13 @@ Advanced identifier topics:
 - JavaScript comments
 - VS Code keyboard shortcuts reference
 
+### Chapter 4: JavaScript Concepts (Deep Dive)
+Core language mechanics and behavior:
+- `var`, `let`, `const` differences and redeclaration rules
+- Function declarations and scope
+- Variable hoisting behavior
+- Function-scoped vs block-scoped variables
+
 ---
 
 ## How to Run
@@ -71,7 +86,7 @@ Advanced identifier topics:
 
 3. **Or run any specific file:**
    ```bash
-   node chapter_02_Javascript_Concept/07_Identifier_Rules_Part2.js
+   node Chapter_04_Javascript_Concept/16_Hoisting.js
    ```
 
 ---
@@ -89,10 +104,19 @@ Advanced identifier topics:
 | Topic | File(s) |
 |:---|:---|
 | Variables & Data Types | `chapter_01_Basics/01_Basics.js` |
-| Identifier Rules | `chapter_02_Javascript_Concept/06_Identifier_Rules.js` |
-| Naming Conventions (camelCase, snake_case, PascalCase, etc.) | `chapter_02_Javascript_Concept/07_Identifier_Rules_Part2.js` |
+| Identifier Rules | `chapter_03_Identifier_Literals/06_Identifier_Rules.js` |
+| Naming Conventions (camelCase, snake_case, PascalCase, etc.) | `chapter_03_Identifier_Literals/07_Identifier_Rules_Part2.js` |
 | Comments | `chapter_03_Identifier_Literals/08_Comments.js` |
 | VS Code Shortcuts | `chapter_03_Identifier_Literals/VS_keyboarrd_Short_window.md` |
+| var vs let vs const | `Chapter_04_Javascript_Concept/09_var_let_const.js` |
+| Functions | `Chapter_04_Javascript_Concept/10_functions.js` |
+| var Explained | `Chapter_04_Javascript_Concept/11_var_explained.js` |
+| let Explained | `Chapter_04_Javascript_Concept/12_let_explained.js` |
+| const Explained | `Chapter_04_Javascript_Concept/13_const_explained.js` |
+| var Function Scope | `Chapter_04_Javascript_Concept/14_var_functionscope.js` |
+| let Function Scope | `Chapter_04_Javascript_Concept/15_let_functionscope.js` |
+| Hoisting | `Chapter_04_Javascript_Concept/16_Hoisting.js` |
+| Function Hoisting | `Chapter_04_Javascript_Concept/17_hoisting_fn.js` |
 
 ---
 
