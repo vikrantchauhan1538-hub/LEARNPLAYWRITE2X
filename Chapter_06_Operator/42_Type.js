@@ -1,0 +1,7 @@
+console.log(typeof "hello")
+console.log(typeof 123)
+console.log(typeof NaN)
+console.log(typeof undefine)
+console.log(typeof " ")
+console.log(typeof [])
+console.log(typeof null)
