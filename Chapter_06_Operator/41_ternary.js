@@ -30,3 +30,5 @@ let y = 210;
 let z = 1000;
 let max_number_3_digit = (x > y && x > z) ? x : (y > z ? y : z);
 console.log("maximum_number _between_3_digit " + max_number_3_digit)
+
+// Number to check it is positive and Negative and Zero 
