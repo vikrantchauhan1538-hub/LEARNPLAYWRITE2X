@@ -3,11 +3,11 @@ function getToken() {
 
 }
 
-async function getdata() {
+async function getData() {
     let token = await getToken();
     console.log(token);
 
 
 }
 
-getdata();
+getData();
