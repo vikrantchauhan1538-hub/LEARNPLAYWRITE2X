@@ -37,6 +37,9 @@ LEARNPLAYWRITE2X/
 │   ├── 15_let_functionscope.js   # let function scope behavior
 │   ├── 16_Hoisting.js            # Variable hoisting with var
 │   └── 17_hoisting_fn.js         # Function-scoped hoisting example
+├── Chapter_20_OOPS/
+│   └── 02_Class_object/
+│       └── 177_static.js         # Static properties and class instances
 ```
 
 ---
@@ -68,6 +71,12 @@ Core language mechanics and behavior:
 - Function declarations and scope
 - Variable hoisting behavior
 - Function-scoped vs block-scoped variables
+
+### Chapter 20: OOPS
+Object-oriented programming concepts:
+- Classes and objects
+- Static properties and methods
+- Instance creation and property access
 
 ---
 
@@ -117,6 +126,7 @@ Core language mechanics and behavior:
 | let Function Scope | `Chapter_04_Javascript_Concept/15_let_functionscope.js` |
 | Hoisting | `Chapter_04_Javascript_Concept/16_Hoisting.js` |
 | Function Hoisting | `Chapter_04_Javascript_Concept/17_hoisting_fn.js` |
+| Static Properties & Class Instances | `Chapter_20_OOPS/02_Class_object/177_static.js` |
 
 ---
 
