@@ -10,6 +10,68 @@ This repository contains practical JavaScript code examples and exercises design
 
 ---
 
+## Learning Path
+
+```mermaid
+graph LR
+    A[Chapter 1: Basics] --> B[Chapter 2-3: Identifiers & Literals]
+    B --> C[Chapter 4: JS Concepts]
+    C --> D[Chapter 5: Operators]
+    D --> E[Chapter 6-8: Control Flow]
+    E --> F[Chapter 9: User Input]
+    F --> G[Chapter 10: Loops]
+    G --> H[Chapter 11: Arrays]
+    H --> I[Chapter 12: Functions]
+    I --> J[Chapter 13: Strings]
+    J --> K[Chapter 14: Objects]
+    K --> L[Chapter 15: 2D Arrays]
+    L --> M[Chapter 16: Callbacks]
+    M --> N[Chapter 17: Promises]
+    N --> O[Chapter 18: Async/Await]
+    O --> P[Chapter 19: Playwright]
+    P --> Q[Chapter 20: OOPs]
+    Q --> R[Chapter 26: TypeScript]
+    R --> S[Chapter 27: Interfaces]
+    S --> T[Chapter 28: Enums]
+    T --> U[Chapter 29: Generics]
+    U --> V[Chapter 30: Access Modifiers]
+
+    style A fill:#e1f5fe
+    style V fill:#c8e6c9
+```
+
+---
+
+## Topic Dependency Diagram
+
+```mermaid
+graph TD
+    Basics[Variables & Data Types] --> Operators[Operators]
+    Basics --> ControlFlow[If/Else & Switch]
+    Operators --> Loops[Loops]
+    ControlFlow --> Loops
+    Loops --> Arrays[Arrays]
+    Arrays --> Functions[Functions]
+    Functions --> Strings[Strings]
+    Functions --> Objects[Objects]
+    Objects --> OOP[OOPs - Classes]
+    Arrays --> Callbacks[Callbacks]
+    Callbacks --> Promises[Promises]
+    Promises --> AsyncAwait[Async/Await]
+    AsyncAwait --> Playwright[Playwright Automation]
+    OOP --> TypeScript[TypeScript Basics]
+    TypeScript --> Interfaces[Interfaces]
+    Interfaces --> Enums[Enums]
+    Enums --> Generics[Generics]
+    Generics --> Access[Access Modifiers]
+
+    style Basics fill:#e1f5fe
+    style Playwright fill:#fff3e0
+    style Access fill:#c8e6c9
+```
+
+---
+
 ## Repository Structure
 
 ```
